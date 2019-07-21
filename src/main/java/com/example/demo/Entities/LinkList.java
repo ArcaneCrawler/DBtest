@@ -27,6 +27,7 @@ public class LinkList {
 
 
     public LinkList(long userId, String[][] link, String http, String name, String preview, String css, String text) {
+
         this.userId = userId;
         this.link = link;
         this.http = link[(int) userId][0];
@@ -92,6 +93,14 @@ public class LinkList {
     public void setText(String text) {
         this.text = text;
     }
+
+  /*  @Override
+    public String toString() {
+        return String.format(
+                "List[id=%s, studentName='%s',
+                studentAge="+studentAge+"]",
+        id, studentName);
+    }*/
 }
 
 /* Идея

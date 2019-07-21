@@ -1,5 +1,5 @@
 package com.example.demo.Services;
-
+/*
 import com.example.demo.Entities.User;
 import com.example.demo.Repositories.UserRepository;
 
@@ -30,4 +30,4 @@ public class UserService {
     public List<User> findAll() {
         return userRepository.findAll();
     }
-}
+}*/
